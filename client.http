@@ -1,0 +1,8 @@
+### Probar health (ajusta URL al de tu servicio)
+GET https://dl-emotion-api.onrender.com/healthz
+
+### Probar inferencia (ajusta la ruta del archivo)
+POST https://dl-emotion-api.onrender.com/infer
+Content-Type: multipart/form-data
+
+file=@face.jpg
