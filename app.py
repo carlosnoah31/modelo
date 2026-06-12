@@ -11,7 +11,7 @@ import onnxruntime as ort
 EMOTION_CLASSES = ['angry', 'fear', 'happy', 'sad', 'sleepy', 'surprised']
 
 API_KEY     = os.getenv("PLUGIN3101CARSOF", "")            # opcional
-MODEL_PATH  = os.getenv("MODEL_PATH", "models/emociones_resnet50.onnx")
+MODEL_PATH  = os.getenv("MODEL_PATH", "models/emociones_resnet50_1.onnx")
 MODEL_URL   = os.getenv("MODEL_URL", "")                  # opcional (descarga en arranque)
 ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*")       # lista separada por comas
 PORT = int(os.getenv("PORT", "8000"))
